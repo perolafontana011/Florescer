@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Plantas Disponíveis - EcoPlantas</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #ecf9f0;
+      color: #3e5c42;
+    }
+
+    header {
+      background-color: #c4e7cb;
+      padding: 30px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.4em;
+      color: #2b5d36;
+    }
+
+    nav {
+      background-color: #dff0df;
+      text-align: center;
+      padding: 12px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: #3d7548;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .lista {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+      padding: 30px;
+    }
+
+    .planta {
+      background-color: #ffffff;
+      border: 1px solid #bde3bd;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 2px 2px 6px rgba(0,0,0,0.05);
+    }
+
+    .planta h2 {
+      margin-top: 0;
+      color: #4a8058;
+    }
+
+    .planta p {
+      margin: 5px 0;
+      font-size: 14px;
+      color: #506a55;
+    }
+
+    footer {
+      background-color: #c4e7cb;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #4e6a4e;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🌿 Plantas Disponíveis</h1>
+    <p>Doações, vendas e cuidados para cada tipo</p>
+  </header>
+
+  <nav>
+    <a href="../paginas/flori.html">Início</a>
+    <a href="../paginas/cadastro.html">Cadastrar Planta</a>
+    <a href="../paginas/cuidados.html">Cuidados</a>
+    <a href="../paginas/cuidados.html">Contato</a>
+  </nav>
+
+  <section class="lista">
+    <div class="planta">
+      <h2>Espada-de-São-Jorge</h2>
+      <p><strong>Tipo:</strong> Doação</p>
+      <p><strong>Rega:</strong> A cada 10 dias</p>
+      <p><strong>Luz:</strong> Sol ou sombra parcial</p>
+    </div>
+
+    <div class="planta">
+      <h2>Samambaia</h2>
+      <p><strong>Tipo:</strong> Venda - R$ 20,00</p>
+      <p><strong>Rega:</strong> 3x por semana</p>
+      <p><strong>Luz:</strong> Ambientes sombreados e úmidos</p>
+    </div>
+
+    <div class="planta">
+      <h2>Orquídea Branca</h2>
+      <p><strong>Tipo:</strong> Doação</p>
+      <p><strong>Rega:</strong> 2x por semana</p>
+      <p><strong>Luz:</strong> Luz indireta e ventilação</p>
+    </div>
+
+    <div class="planta">
+      <h2>Zamioculca</h2>
+      <p><strong>Tipo:</strong> Venda - R$ 30,00</p>
+      <p><strong>Rega:</strong> 1x por semana</p>
+      <p><strong>Luz:</strong> Meia-sombra</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 EcoPlantas — Cuidando de cada folha com carinho 🌱
+  </footer>
+
+</body>
+</html>

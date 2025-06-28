@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cadastrar Planta - EcoPlantas</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #ecf9f0;
+      color: #3e5c42;
+    }
+
+    header {
+      background-color: #c4e7cb;
+      padding: 30px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.2em;
+      color: #2b5d36;
+    }
+
+    nav {
+      background-color: #dff0df;
+      padding: 12px;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: #3d7548;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .formulario {
+      max-width: 500px;
+      margin: 40px auto;
+      background-color: #fff;
+      border: 1px solid #bde3bd;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 2px 2px 6px rgba(0,0,0,0.05);
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    input, textarea, select {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border-radius: 6px;
+      border: 1px solid #aacfae;
+      box-sizing: border-box;
+    }
+
+    button {
+      margin-top: 20px;
+      background-color: #87c68b;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    button:hover {
+      background-color: #65a56d;
+    }
+
+    footer {
+      background-color: #c4e7cb;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #4e6a4e;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🌿 Cadastrar Nova Planta</h1>
+  </header>
+
+  <nav>
+    <a href="../paginas/flori.html">Início</a>
+    <a href="../paginas/plantas.html">Ver Plantas</a>
+    <a href="../paginas/cuidados.html">Cuidados</a>
+  </nav>
+
+  <div class="formulario">
+    <form action="#" method="post">
+      <label for="nome">Nome da Planta:</label>
+      <input type="text" id="nome" name="nome" required />
+
+      <label for="tipo">Tipo (Doação ou Venda):</label>
+      <select id="tipo" name="tipo">
+        <option value="doacao">Doação</option>
+        <option value="venda">Venda</option>
+      </select>
+
+      <label for="preco">Preço (se for venda):</label>
+      <input type="text" id="preco" name="preco" placeholder="Ex: R$ 25,00" />
+
+      <label for="cuidados">Cuidados:</label>
+      <textarea id="cuidados" name="cuidados" rows="4" required></textarea>
+
+      <button type="submit">Cadastrar Planta</button>
+    </form>
+  </div>
+
+  <footer>
+    &copy; 2025 EcoPlantas — Verde que se compartilha 🌱
+  </footer>
+
+</body>
+</html>
